@@ -2,12 +2,12 @@
 #include "func1.h"
 #include "func2.h"
 
-int turbo_on()
+void turbo_on()
 {
   printf("turbo_on\n");
 }
 
-int turbo_off()
+void turbo_off()
 {
   printf("turbo_off\n");
 }
@@ -20,6 +20,8 @@ int main()
   func2();
 
   turbo_off();
+
+  printf("lalalalalalalalalalalalalalalalalalalalalalalalalalalalalalala\n");
 
   return 0;
 }
